@@ -3355,9 +3355,7 @@ __metadata:
     eslint: ^7.32.0
     eslint-config-custom: "*"
     react: ^18.2.0
-    react-dom: ^18.2.0
     react-native: 0.70.6
-    react-native-web: ^0.18.10
     tsconfig: "*"
     typescript: ^4.5.2
   languageName: unknown
