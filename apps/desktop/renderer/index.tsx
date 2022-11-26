@@ -1,12 +1,12 @@
 // const information = document.getElementById('info')
 // information.innerText = `This app is using Chrome (v${versions.chrome()}), Node.js (v${versions.node()}), and Electron (v${versions.electron()})`
-import { AppRegistry, View } from "react-native-web";
+import { AppRegistry, SafeAreaView } from "react-native-web";
 import HomeScreen from 'client/screens/Home.screen'
 
 const App: () => JSX.Element = () => (
-  <View>
+  <SafeAreaView style={{ height: '100vh' }}>
     <HomeScreen />
-  </View>
+  </SafeAreaView>
 )
 
 AppRegistry.registerComponent("App", () => App);
