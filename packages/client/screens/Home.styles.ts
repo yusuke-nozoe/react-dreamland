@@ -9,6 +9,7 @@ const styles = StyleSheet.create({
     right: 0,
     alignItems: 'center',
     justifyContent: 'center',
+    height: '100vh'
   },
   textLabel: {
     fontSize: 24,
