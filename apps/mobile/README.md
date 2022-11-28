@@ -1,7 +1,7 @@
 ## Getting Started
 
-It may be necessary to run `pod install` under ios/ for setup.
-
 ```bash
+cd apps/mobile/ios && pod install
+cd ../
 yarn ios # or yarn android
 ```
