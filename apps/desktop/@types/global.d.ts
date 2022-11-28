@@ -4,5 +4,5 @@ export interface IVersions {
   electron: () => number
 }
 declare global {
-  var versions: IVersions;
+  var versions: IVersions
 }

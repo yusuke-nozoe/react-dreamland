@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
   },
   textLabel: {
     fontSize: 24,
-  }
+  },
 })
 
 export default styles
