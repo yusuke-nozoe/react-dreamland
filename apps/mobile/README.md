@@ -1,7 +1,6 @@
 ## Getting Started
 
 ```bash
-cd apps/mobile/ios && pod install
-cd ../
+npx pod-install ios
 yarn ios # or yarn android
 ```
