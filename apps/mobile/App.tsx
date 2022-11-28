@@ -7,19 +7,16 @@ import {
 } from 'react-native';
 
 import HomeScreen from 'client/screens/Home.screen';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
-
-  // const backgroundStyle = {
-  //   backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  // };
 
   return (
     <SafeAreaView style={styles.safearea}>
       <StatusBar
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={styles.statusbar.backgroundColor}
+        backgroundColor={isDarkMode ? Colors.darker : Colors.lighter}
       />
       <HomeScreen />
     </SafeAreaView>
@@ -29,9 +26,6 @@ const App = () => {
 const styles = StyleSheet.create({
   safearea: {
     flex: 1,
-  },
-  statusbar: {
-    backgroundColor: 'blue',
   },
 });
 
